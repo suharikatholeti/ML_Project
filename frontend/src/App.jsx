@@ -47,8 +47,7 @@ function App() {
     setResult(null);
 
     try {
-      const response = await axios.post(
-        "http://127.0.0.1:5000/analyze",
+      const response = await axios.post("https://ml-project-61as.onrender.com/analyze",
         formData
       );
 
